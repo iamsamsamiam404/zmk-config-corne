@@ -54,7 +54,7 @@
 
                         bindings = <
   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none &none &none &none &none &none  
-   &none &ext_power EP_ON &ext_power EP_TOG &none &none &none                                      &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
+   &none &ext_power EP_ON &ext_power EP_TOG &none &none &none                &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
    &none &bt BT_CLR &none &none &none &none                                 &none &none &none &none &none &none 
                      &tog 1 &none &none                                     &mkp LCLK &mkp RCLK &none
                         >;
@@ -87,8 +87,8 @@
                         bindings = <
   &none &kp ESC &kp Q &kp W &kp E &kp R        &kp J &kp F  &kp U     &kp P   &tog 4 &none
   &none &kp CAPS  &kp A &kp S &kp D &kp F        &kp Y &kp N  &kp E     &kp O   &kp I &none
-  &none &LSHIFT &kp Z &kp X &kp C &kp V         &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &none
-                     &kp 1 &kp 2 &kp SPACE        &none &none &none
+  &none &kp LSHIFT &kp Z &kp X &kp C &kp V         &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &none
+                     &kp N1 &kp N2 &kp SPACE        &none &none &none
                         >; 
                 };  
                 FUNCTION {

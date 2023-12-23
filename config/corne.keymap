@@ -88,7 +88,7 @@
   &none &kp ESC &kp Q &kp W &kp E &kp R        &kp J &kp F  &kp U     &kp P   &tog 4 &none
   &none &kp CAPS  &kp A &kp S &kp D &kp F        &kp Y &kp N  &kp E     &kp O   &kp I &none
   &none &kp LSHIFT &kp Z &kp X &kp C &kp V         &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &none
-                     &kp N1 &kp N2 &kp SPACE        &none &none &none
+                     &mo 3 &kp N2 &kp SPACE        &none &none &none
                         >; 
                 };  
                 FUNCTION {
